@@ -1,0 +1,18 @@
+modelparams:
+  sample_rate: 32000
+  window_size: 1024
+  hop_size: 50
+  mel_bins: 64
+  fmin: 8
+  fmax: 14000
+  classes_num: 527
+
+embeddingmodelparams:
+  checkpoint_path: "Cnn10_mAP=0.380.pth"
+  sample_rate: 32000
+  window_size: 1024
+  hop_size: 50
+  mel_bins: 64
+  fmin: 8
+  fmax: 14000
+  classes_num: 527
